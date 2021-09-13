@@ -2,7 +2,7 @@ const plus = document.querySelector("#plus");
 const minus = document.querySelector("#minus");
 const reset = document.querySelector("#reset");
 const display = document.querySelector("#display");
-const card = document.querySelector(".card-header");
+const expand = document.querySelector("#expand");
 const cardBody = document.querySelector("#card .card-body");
 
 plus.addEventListener("click", () => {
@@ -20,7 +20,7 @@ reset.addEventListener("click", () => {
 });
 
 // To toggle counter bar
-card.addEventListener("click", () => {
+expand.addEventListener("click", () => {
   if (cardBody.style.display === "none") {
     cardBody.style.display = "block";
   } else {
