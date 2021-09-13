@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter App</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="outer" class="container-fluid vh-100">
+      <div id="card" class="card text-center w-50 m-auto">
+        <div
+          class="
+            card-header
+            text-light
+            display-6
+            bg-dark bg-gradient
+            text-light
+          "
+        >
+          Counter
+        </div>
+        <div class="card-body">
+          <h5 id="display" class="card-title display-3">0</h5>
+          <a id="minus" class="btn btn-danger btn-lg">-</a>
+          <a id="reset" class="btn btn-warning btn-lg">Reset</a>
+          <a id="plus" class="btn btn-success btn-lg">+</a>
+        </div>
+        <div class="card-footer p-4 bg-dark bg-gradient text-light"></div>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
