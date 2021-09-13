@@ -1,0 +1,25 @@
+#outer {
+  background: url("/bg.jpg") no-repeat center;
+  background-size: 100% 100%;
+  padding-top: 180px;
+  user-select: none;
+}
+
+#card {
+  border-radius: 50px;
+  border: none;
+}
+
+#card .card-header.bg-dark {
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+}
+#card .card-footer.bg-dark {
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+div > a:hover {
+  border-radius: 50%;
+  transition: border-radius 0.5s;
+}
